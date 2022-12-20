@@ -102,7 +102,7 @@ const AboutDialog = ({ playgroundColors, variant, ...props }) => (
 		</DialogTrigger>
 		<DialogContent>
 			<h2>
-				Hi, we are{' '}
+				Originally created by <br />
 				<Contributor
 					target="_blank"
 					href="https://hayk.design/#/"
@@ -143,7 +143,7 @@ const AboutDialog = ({ playgroundColors, variant, ...props }) => (
 				palettes or copy the generated SVG's and use them in any design tool
 				like Figma, Sketch or directly into your web project.
 			</p>
-			<p>
+			{/* <p>
 				If you like the project you can contribute{' '}
 				<a
 					target="_blank"
@@ -153,7 +153,7 @@ const AboutDialog = ({ playgroundColors, variant, ...props }) => (
 					with a coffee
 				</a>{' '}
 				so we can keep up with the work.
-			</p>
+			</p> */}
 			<DialogClose asChild>
 				<CloseButton>Close</CloseButton>
 			</DialogClose>
