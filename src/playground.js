@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { SegmentGroup, Segment, Button, BaseStyles, ColorDot, AboutDialog } from './ui-system'
 import colors from 'nice-color-palettes/1000'
 import { exampleNames } from './example-names'
-import Avatar from 'boring-avatars'
+import Avatar from 'boring-avatar'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import { useMedia } from './hooks'
 import { Github, RoundCorner, SquareCorner, Theme } from './icons'
@@ -286,7 +286,7 @@ const Playground = () => {
           />
           <Button
             as="a"
-            href="https://github.com/boringdesigners/boring-avatars"
+            href="https://github.com/alanhoskins/boring-avatars"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="Visit Github repository"
@@ -330,6 +330,7 @@ const Playground = () => {
               {" "}
               <a href="https://josepmartins.com/" target="_blank" rel="noreferrer noopener">Josep Martins</a>
               .
+              Forked from BoringAvatars by <a href="https://alanhoskins.com/" target="_blank" rel="noreferrer noopener">Alan Hoskins</a> to restore the site.
             </small>
           </FooterMadeBy>
       </Footer>
